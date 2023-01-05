@@ -1,5 +1,4 @@
-
-  .bd-placeholder-img {
+.bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
     -webkit-user-select: none;
@@ -48,4 +47,24 @@
     text-align: center;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+  }
+
+  .card {
+    border: 3px solid #af69ee ;
+    background-color: transparent;
+    margin: 20px auto 30px;
+  }
+
+  .btn-outline-secondary {
+    color: #b9bbbe;
+    border-color: #af69ee;
+  }
+
+  .btn-outline-secondary:hover {
+    background-color: #af69ee;
+    color: #ffffff;
+  }
+
+  .card-img-top {
+    background-image: url(/src/assets/images/19.png);
   }
